@@ -1,0 +1,38 @@
+.steps {
+    margin-right: 3.875rem;
+    margin-left: 3.875rem;
+    margin-bottom: 4.375rem;
+}
+
+.steps .circle {
+    width: 4rem;
+    height: 4rem;
+}
+
+.circle-on {
+    flex-shrink: 0;
+    background-color: #1FC0AE;
+}
+
+.circle-in-progress{
+    border: 1px solid #8E99AB;
+    background: #1FC0AE;
+}
+
+.circle-off{
+    background: #EAECF0;
+}
+.text-container {
+    display: flex;
+    width: 14.4375rem;
+    height: 1.08456rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #1B1B1B;
+    font-size: 1.25rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.6875rem;
+}
